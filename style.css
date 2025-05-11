@@ -1,0 +1,40 @@
+body{
+    background-color: blueviolet;
+}
+.chessboard td{
+    width: 50px;
+    height: 50px;
+}
+.black{
+    background-color: black;
+}
+.chessboard{
+    border: 10px black solid;
+    border-collapse: collapse;
+    margin-left: 300px;
+    margin-top: 100px;
+}
+.white{
+    background-color: white;
+}
+.white:hover{
+    background-image: url(./queen.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.black:hover{
+    background-image: url(./horse-removebg-preview\ \(2\).png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.heading{
+    margin-left: 800px;
+    margin-bottom: -400px;
+    color: white;
+}
+.hy{
+    background-color: black;
+    border-radius: 10px;
+}
